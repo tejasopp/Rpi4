@@ -1,0 +1,19 @@
+import Rpi.GPIO as gpio
+import time
+gpio.setmode(gpio.BOARD)
+gpio.setup(11,gpio.IN,
+
+
+
+
+
+
+
+
+
+
+
+)
+gpio.setup(12,gpio.OUT)
+readVal = gpio.input(11)
+
